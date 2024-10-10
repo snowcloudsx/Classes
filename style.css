@@ -1,0 +1,21 @@
+body {
+    background-color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+#buttons {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+
+
+    background-color:;
+}

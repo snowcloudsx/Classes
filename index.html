@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Stop Watch</h1>
+        <div id="Time">
+
+        </div>
+
+
+        <span class="Digit" id="hr">00</span>
+        <span class="Text" id="Hr"></span>
+
+        <span class="Digit" id="Min">00</span>
+        <span class="Text" id="Min"></span>
+
+        <span class="Digit" id="sec">00</span>
+        <span class="Text" id="Sec"></span>
+
+        <span class="Digit" id="count">00</span>
+        <span class="Text" id="MSec"></span>
+
+
+        <div id="buttons">
+
+            <button class="btn" type="button" id="Start" onclick="StartWatch()" style="background-color: rgb(144, 238, 144);">Start</button>
+            <button class="btn" type="button" id="Stop" onclick="Stop_Watch()">Stop</button>
+            <button class="btn" type="button" id="reset" onclick="ResetWatch()">Reset</button>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
